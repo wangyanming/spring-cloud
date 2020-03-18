@@ -1,0 +1,64 @@
+server:
+  port: 9999
+spring:
+  #profiles:
+  #  active: dev
+  application:
+    name: gateway
+  redis:
+    database: 1
+    host: 192.168.1.201
+    port: 6379
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          #开启发现服务并且自动为每一个服务routes以开头为服务名
+          enabled: true
+          # 服务名小写
+          lower-case-service-id: true
+      default-filters:
+        - name: Hystrix
+          args:
+            name: fallbackcmd
+            fallbackUri: forward:/fallback
+        - name: RequestRateLimiter
+          args:
+            # 使用SpEL名称引用Bean，与上面新建的RateLimiterConfig类中的bean的name相同
+            key-resolver: '#{@hostAddrKeyResolver}'
+            # 每秒最大访问次数
+            redis-rate-limiter.replenishRate: 1
+            # 令牌桶最大容量
+            redis-rate-limiter.burstCapacity: 2
+  #oauth2认证
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: 'http://localhost:8890/oauth/.public-key/jwks.json'
+
+#hystrix 信号量隔离，3秒后自动超时
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            timeoutInMilliseconds: 3000
+    shareSecurityContext: true
+
+# 注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:mosh123456@localhost:8760/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
