@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: register
+  security:
+    user: 
+      name: admin
+      password: mosh123456
+  #mail:
+  #  default-encoding: UTF-8
+  #  host: smtp.163.com
+  #  username: wldd1116@163.com
+  #  password: wldd1116
+  #  port: 25
+
+server:
+  port: 8760
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:mosh123456@localhost:8760/eureka/
+    fetch-registry: false
+    register-with-eureka: false
+  server:
+      enable-self-preservation: false
+      

@@ -1,0 +1,3 @@
+com\hds\register\RegisterApplication.class
+com\hds\register\listener\EurekaInstanceEventsListener.class
+com\hds\register\RegisterApplication$WebSecurityConfigurer.class
