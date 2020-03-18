@@ -1,0 +1,25 @@
+server:
+  port: 8890
+spring:
+  application:
+    name: configcenter
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wangyanming/spring-config.git
+          default-label: master
+# ×¢²áÖÐÐÄ
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:mosh123456@localhost:8760/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
