@@ -5,6 +5,7 @@ spring:
     user: 
       name: admin
       password: mosh123456
+
   #mail:
   #  default-encoding: UTF-8
   #  host: smtp.163.com

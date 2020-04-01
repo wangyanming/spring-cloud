@@ -50,5 +50,6 @@ public class GatewayApplication {
 	public UriKeyResolver uriKeyResolver() {
 		return new UriKeyResolver();
 	}*/
+
 }
 

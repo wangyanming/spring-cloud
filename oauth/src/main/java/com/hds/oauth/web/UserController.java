@@ -29,4 +29,12 @@ public class UserController {
         RSAKey key = new RSAKey.Builder(publicKey).build();
         return new JWKSet(key).toJSONObject();
     }
+
+    /*@RequestMapping(value = "/current", method = RequestMethod.GET)
+    public Principal getUser(Principal principal) {
+        logger.info(">>>>>>>>>>>>>>>>>>>>>>>>");
+        logger.info(principal.toString());
+        logger.info(">>>>>>>>>>>>>>>>>>>>>>>>");
+        return principal;
+    }*/
 }

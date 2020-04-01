@@ -1,12 +1,13 @@
-spring:
-  application:
-    name: oauth
-  redis:
-    host: 192.168.1.201
-    database: 1
-
 server:
   port: 8890
+spring:
+  application:
+    name: configcenter
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wangyanming/spring-config.git
 
 eureka:
   client:
@@ -21,4 +22,3 @@ management:
   endpoint:
     health:
       show-details: ALWAYS
-

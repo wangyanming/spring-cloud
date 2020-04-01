@@ -2,8 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="141fbc79-7046-40af-8f2e-7c8828cce69e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configcenter/src/main/resources/gateway-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configcenter/src/main/resources/springbootadmin-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/hds/log/filter/AccessLogGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/hds/log/filter/RecorderServerHttpRequestDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/target/classes/META-INF/gateway.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/target/classes/com/hds/log/filter/AccessLogGlobalFilter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/target/classes/com/hds/log/filter/AccessLogGlobalFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/target/classes/com/hds/log/filter/OauthLogFilter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/target/classes/com/hds/log/filter/OauthLogFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/target/classes/com/hds/log/filter/RecorderServerHttpRequestDecorator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oauth/src/main/java/com/hds/oauth/utils/PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oauth/src/main/resources/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oauth/src/main/resources/oauth2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../configcenter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../configcenter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../configcenter/src/main/java/com/hds/configcenter/ConfigCenterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../configcenter/src/main/java/com/hds/configcenter/ConfigCenterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../configcenter/src/main/resources/application-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../configcenter/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../configcenter/src/test/java/com/hds/configcenter/ConfigcenterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../configcenter/src/test/java/com/hds/configcenter/ConfigcenterApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.idea/gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.idea/gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_6_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/hds/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/hds/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/hds/oauth2/config/ResourceServerConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/hds/oauth2/config/ResourceServerConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/com/hds/oauth2/config/ResourceServerConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/target/classes/com/hds/oauth2/config/ResourceServerConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/com/hds/ribbon/controller/RibbonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/target/classes/com/hds/ribbon/controller/RibbonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oauth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oauth/src/main/java/com/hds/oauth/config/AuthorizationServerConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth/src/main/java/com/hds/oauth/config/AuthorizationServerConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oauth/src/main/java/com/hds/oauth/config/WebSecurityConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth/src/main/java/com/hds/oauth/config/WebSecurityConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oauth/src/main/java/com/hds/oauth/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth/src/main/java/com/hds/oauth/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oauth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../oauth/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.iml" beforeDir="false" afterPath="$PROJECT_DIR$/register.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hds/register/RegisterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hds/register/RegisterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hds/register/listener/EurekaInstanceEventsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hds/register/listener/EurekaInstanceEventsListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hds/register/RegisterApplication$WebSecurityConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hds/register/RegisterApplication$WebSecurityConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hds/register/RegisterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hds/register/RegisterApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hds/register/listener/EurekaInstanceEventsListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hds/register/listener/EurekaInstanceEventsListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootadmin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootadmin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootadmin/src/main/java/com/hds/admin/SpringBootAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootadmin/src/main/java/com/hds/admin/SpringBootAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootadmin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootadmin/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootadmin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootadmin/target/classes/com/hds/admin/SpringBootAdminApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootadmin/target/classes/com/hds/admin/SpringBootAdminApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +79,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1Yyi9iLNIZ9FqNhznahT6mLcGso" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,7 +105,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/flink" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gateway" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -39,7 +115,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RegisterApplication-8760">
+  <component name="RunManager" selected="Application.RegisterApplication">
+    <configuration name="RegisterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hds.register.RegisterApplication" />
+      <module name="register" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hds.register.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegisterApplication-8750" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="register" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hds.register.RegisterApplication" />
@@ -75,9 +164,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.RegisterApplication" />
       <item itemvalue="Spring Boot.RegisterApplication-8750" />
       <item itemvalue="Spring Boot.RegisterApplication-8760" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RegisterApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -92,7 +187,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -113,14 +208,24 @@
       <updated>1583921084986</updated>
       <workItem from="1583921088030" duration="754000" />
       <workItem from="1583921917373" duration="3941000" />
-      <workItem from="1584094014273" duration="4002000" />
+      <workItem from="1584094014273" duration="15910000" />
+      <workItem from="1585126691678" duration="4699000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Notifications" timestamp="1584527764585">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1584527764585" />
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583978707456">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -129,41 +234,49 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1583921146174" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1584415938660">
+    <state x="363" y="8" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1585126766370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584415938660" />
-    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1584524644059">
+    <state x="363" y="8" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1366.728@0.0.1366.728" timestamp="1585126766370" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1584600574028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584524644059" />
-    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1584524644058">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584600574028" />
+    <state width="1323" height="230" key="GridCell.Tab.0.bottom" timestamp="1585127983440">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584524644058" />
-    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1584524644058">
+    <state width="1323" height="230" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585127983440" />
+    <state width="1323" height="230" key="GridCell.Tab.0.center" timestamp="1585127983439">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584524644058" />
-    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1584524644059">
+    <state width="1323" height="230" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585127983439" />
+    <state width="1323" height="230" key="GridCell.Tab.0.left" timestamp="1585127983439">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584524644059" />
-    <state width="905" height="179" key="GridCell.Tab.1.bottom" timestamp="1584524644059">
+    <state width="1323" height="230" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585127983439" />
+    <state width="1323" height="230" key="GridCell.Tab.0.right" timestamp="1585127983439">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584524644059" />
-    <state width="905" height="179" key="GridCell.Tab.1.center" timestamp="1584524644059">
+    <state width="1323" height="230" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585127983439" />
+    <state width="905" height="179" key="GridCell.Tab.1.bottom" timestamp="1584700939128">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584524644059" />
-    <state width="905" height="179" key="GridCell.Tab.1.left" timestamp="1584524644059">
+    <state width="905" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584700939128" />
+    <state width="905" height="179" key="GridCell.Tab.1.center" timestamp="1584700939128">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584524644059" />
-    <state width="905" height="179" key="GridCell.Tab.1.right" timestamp="1584524644059">
+    <state width="905" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584700939128" />
+    <state width="905" height="179" key="GridCell.Tab.1.left" timestamp="1584700939128">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584524644059" />
+    <state width="905" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584700939128" />
+    <state width="905" height="179" key="GridCell.Tab.1.right" timestamp="1584700939128">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584700939128" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1585126749391">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585126749391" />
   </component>
 </project>

@@ -14,7 +14,6 @@ public class ResourceServerConfigurer {
                 .anyExchange().authenticated();
 
         http.oauth2ResourceServer().jwt();
-
         return http.build();
     }
 }
