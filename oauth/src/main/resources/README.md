@@ -1,3 +1,6 @@
+oauth2的实现验证方式为客户端方式：client_credentials
+建表语句在oauth2.sql文件中，目前用到表为oauth_client_details
+
 以JdbcClientDetailsService为例：
 调用http://localhost:8080/oauth/token
 执行流程：
