@@ -26,10 +26,10 @@ public class GatewayApplication {
 		return new RestTemplate();
 	}
 
-	@Bean
+	/*@Bean
 	public IRule myRule() {
 		return new Rule();
-	}
+	}*/
 
 	@Bean
 	public HostAddrKeyResolver hostAddrKeyResolver() {

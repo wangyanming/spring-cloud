@@ -1,5 +1,5 @@
 server:
-  port: 9999
+  port: 8770
 spring:
   #profiles:
   #  active: dev
@@ -45,7 +45,7 @@ hystrix:
         isolation:
           strategy: SEMAPHORE
           thread:
-            timeoutInMilliseconds: 3000
+            timeoutInMilliseconds: 1000000
     shareSecurityContext: true
 
 # 注册中心
@@ -62,5 +62,10 @@ management:
   endpoint:
     health:
       show-details: ALWAYS
+#logging:
+#  config: classpath:logback-spring.xml
 logging:
-  config: classpath:logback-spring.xml
+  level:
+    # root: debug
+    com.netflix.eureka.registry.AbstractInstanceRegistry: WARN
+    com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver: WARN
